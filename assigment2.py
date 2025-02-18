@@ -102,3 +102,48 @@ else:
  for i in range(1, num+1):
   factorial = factorial*i
  print(f'The factorial of {num} is {factorial}')
+
+
+ #Write a Python Program to Display the multiplication Table.
+ num=int(input("Enter a number that u want to print a table for "))
+ for i in range(1, 11):
+  print(f"{num} X {i} = {num*i}")
+
+
+
+#Write a Python Program to Make a Simple Calculator with 4 basic mathematical operations.
+def add(x, y):
+ return x+y
+def substraction(x, y):
+  return x-y
+def multiplicationa(x, y):
+  return x*y
+def division(x, y):
+  return x/y
+
+  print("please select an operator")
+  print("1.add")
+  print("2.substraction")
+  print("3.multplication")
+  print("4.division")
+
+  while True:
+    choice= input("please enter choice(1/2/3/4): ")
+    if choice in('1', '2', '3', '4'):
+     Try
+    num1=int(input("enter first number: "))
+    num2=int(input("enter 2nd number: "))
+     except ValueError:
+     print("Invalid input. Please enter a number.")
+    continue
+    if choice == '1':
+          print(num1, "+", num2, "=", add(num1, num2))
+    elif choice == '2':
+            print(num1, "-", num2, "=", subtract(num1, num2))
+    elif choice == '3':
+            print(num1, "*", num2, "=", multiply(num1, num2))
+    elif choice == '4':
+            print(num1, "/", num2, "=", divide(num1, num2))
+   
+
+      
